@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en" class="no-js" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131a">
+  <meta name="description" content="Swoop returns to macOS. Discover the Swift port of the 1996 arcade classic, with New and Classic graphics modes and integrated NAMCO and Star Wars fan add-ons.">
+  <link rel="canonical" href="https://profdrluigi.github.io/SwoopGame/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Swoop — Back in formation">
+  <meta property="og:description" content="The Mac arcade classic returns. New Mode. Classic Mode. NAMCO sounds. Star Wars music.">
+  <meta property="og:url" content="https://profdrluigi.github.io/SwoopGame/">
+  <meta property="og:image" content="https://profdrluigi.github.io/SwoopGame/assets/img/social-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Swoop — Back in formation</title>
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script defer src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg-definitions" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-sound" viewBox="0 0 24 24"><path d="m11 5-6 4H2v6h3l6 4zm4 3a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l12-3v13M9 8l12-3"/><ellipse cx="5.5" cy="18.5" rx="3.5" ry="2.5"/><ellipse cx="17.5" cy="15.5" rx="3.5" ry="2.5"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.7 2.7 1.2 3.4.9.1-.8.4-1.2.7-1.5-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3c0 .3.2.6.8.5A11.4 11.4 0 0 0 12 .8Z"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md container" aria-label="Main navigation">
+      <a class="navbar-brand brand" href="./" aria-label="Swoop home">
+        <img src="assets/img/favicon.png" alt="" width="34" height="34">
+        <span>SWOOP<span class="brand-dot">.</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="nav-links">
+        <ul class="navbar-nav ms-auto align-items-md-center gap-md-3">
+          <li class="nav-item"><a class="nav-link" href="#gameplay">The game</a></li>
+          <li class="nav-item"><a class="nav-link" href="#modes">Two modes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#addons">Fan add-ons</a></li>
+          <li class="nav-item"><a class="nav-link" href="#controls">Controls</a></li>
+          <li class="nav-item ms-md-2"><a class="btn btn-nav" href="https://github.com/ProfDrLuigi/SwoopGame"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> GitHub <svg class="icon icon-small" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-stars">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6 hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> THE MAC CLASSIC, REIMAGINED</p>
+            <h1>Back in<br><span>formation.</span></h1>
+            <p class="hero-description">One ship. A sky full of trouble. Swoop, the Mac arcade shooter from 1996, takes flight again in a native Swift port.</p>
+            <p class="hero-detail">New graphics or original pixels. The choice is yours.</p>
+            <div class="d-flex flex-wrap gap-3 hero-actions">
+              <a class="btn btn-accent" href="#get-started">Get Swoop <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              <a class="btn btn-quiet" href="#gameplay">Explore the game <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-platform"><span class="platform-symbol" aria-hidden="true">⌘</span><span>Made for macOS <span class="text-divider">/</span> Swift + SpriteKit</span></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-art">
+              <div class="orbit orbit-one" aria-hidden="true"></div>
+              <div class="orbit orbit-two" aria-hidden="true"></div>
+              <img class="hero-icon" src="assets/img/app-icon.webp" width="640" height="640" alt="Swoop app artwork with the metallic logo, alien formations and the player ship" fetchpriority="high">
+              <img class="orbit-alien alien-blue" src="assets/img/alien-blue.webp" width="88" height="88" alt="" aria-hidden="true">
+              <img class="orbit-alien alien-green" src="assets/img/alien-green.webp" width="72" height="72" alt="" aria-hidden="true">
+              <div class="art-caption"><span class="crosshair" aria-hidden="true">+</span><span>1996 ORIGINAL<br><strong>NEW FLIGHT PLAN</strong></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="quick-facts row g-0" aria-label="At a glance">
+          <div class="col-6 col-md-3"><span class="fact-value">Native</span><span class="fact-label">MACOS APP</span></div>
+          <div class="col-6 col-md-3"><span class="fact-value">New + Classic</span><span class="fact-label">TWO GRAPHICS MODES</span></div>
+          <div class="col-6 col-md-3"><span class="fact-value">NAMCO + Star Wars</span><span class="fact-label">INTEGRATED FAN ADD-ONS</span></div>
+          <div class="col-6 col-md-3"><span class="fact-value">English + German</span><span class="fact-label">IN-GAME LANGUAGES</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="gameplay" aria-labelledby="gameplay-title">
+      <div class="container">
+        <div class="row align-items-end gy-3 section-heading">
+          <div class="col-lg-7"><p class="eyebrow section-index">01 / THE GAME</p><h2 id="gameplay-title">Small ship.<br>Big arcade energy.</h2></div>
+          <div class="col-lg-5"><p class="section-intro">Break the formation, dodge the dive attacks and make every shot count. Original flight patterns, weapons and challenge waves are at the heart of this port.</p></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4"><article class="feature">
+            <span class="feature-number">01</span><h3>Read the formation.</h3><p>Watch the swarm, track diving enemies and find your opening. Familiar patterns return in a new native implementation.</p>
+          </article></div>
+          <div class="col-md-4"><article class="feature">
+            <span class="feature-number">02</span><h3>Pick your moment.</h3><p>Put special weapons and shields to work, chase score multipliers and take on the challenge waves.</p>
+          </article></div>
+          <div class="col-md-4"><article class="feature">
+            <span class="feature-number">03</span><h3>Make it your own.</h3><p>Play with a keyboard or controller. Choose your graphics, soundtrack, sound effects and language in Settings.</p>
+          </article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad modes-section" id="modes" aria-labelledby="modes-title">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-4">
+            <p class="eyebrow section-index">02 / TWO WAYS TO FLY</p>
+            <h2 id="modes-title">New look.<br>Classic soul.</h2>
+            <p class="section-intro">Go sharp with <strong>New Mode</strong> and its HD artwork, or switch to <strong>Classic Mode</strong> for the original pixel graphics.</p>
+            <p class="muted-copy">Change the look during play. Your run keeps going.</p>
+            <div class="mode-switch btn-group" role="group" aria-label="Choose screenshot graphics mode">
+              <button type="button" class="btn active" data-mode="new" aria-pressed="true" aria-controls="mode-new mode-classic">New Mode <span class="mode-badge">HD</span></button>
+              <button type="button" class="btn" data-mode="classic" aria-pressed="false" aria-controls="mode-new mode-classic">Classic Mode</button>
+            </div>
+            <p class="shortcut-hint">In the game: <kbd>Ctrl</kbd> + <kbd>C</kbd></p>
+            <noscript><p class="muted-copy">Both graphics modes are shown below. Enable JavaScript to use the preview switch.</p></noscript>
+          </div>
+          <div class="col-lg-8">
+            <div class="game-window">
+              <div class="game-window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>SWOOP / LIVE GAME CAPTURE</span><span class="window-tag" id="window-mode">NEW MODE</span></div>
+              <div class="game-preview" id="mode-preview">
+                <figure id="mode-new" class="mode-frame"><img src="assets/img/gameplay-new.webp" width="1280" height="960" alt="Swoop in New Mode with HD alien sprites, the player ship and score display" loading="lazy"><figcaption class="visually-hidden">New Mode uses HD artwork.</figcaption></figure>
+                <figure id="mode-classic" class="mode-frame" hidden><img src="assets/img/gameplay-classic.webp" width="1280" height="960" alt="The same Swoop game state in Classic Mode with the original pixel sprites" loading="lazy"><figcaption class="visually-hidden">Classic Mode uses the original pixel artwork.</figcaption></figure>
+              </div>
+            </div>
+            <p class="preview-caption"><span class="status-dot"></span><span id="mode-caption" aria-live="polite">New Mode — HD graphics. Actual capture of the native port.</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad addons-section" id="addons" aria-labelledby="addons-title">
+      <div class="container">
+        <div class="row align-items-end gy-3 section-heading">
+          <div class="col-lg-7"><p class="eyebrow section-index">03 / FAN FAVORITES INCLUDED</p><h2 id="addons-title">A familiar game.<br>A different soundtrack.</h2></div>
+          <div class="col-lg-5"><p class="section-intro">The classic <strong>NAMCO</strong> and <strong>Star Wars</strong> fan projects are integrated as optional audio add-ons. Pick them directly in Settings.</p></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6"><article class="addon-panel namco-panel">
+            <div class="addon-topline"><span class="eyebrow">SOUND EFFECTS</span><svg class="icon" aria-hidden="true"><use href="#i-sound"/></svg></div>
+            <h3>NAMCO<span class="addon-period">.</span></h3>
+            <p>Give your run the fan-made NAMCO sound pack. An alternative set of arcade sound effects, selectable alongside the original sounds.</p>
+            <div class="settings-route"><span>Settings</span><span aria-hidden="true">→</span><span>Sound effects</span><span aria-hidden="true">→</span><strong>NAMCO</strong></div>
+          </article></div>
+          <div class="col-md-6"><article class="addon-panel starwars-panel">
+            <div class="addon-topline"><span class="eyebrow">BACKGROUND MUSIC</span><svg class="icon" aria-hidden="true"><use href="#i-music"/></svg></div>
+            <h3>STAR WARS</h3>
+            <p>Fly with the integrated Star Wars: TIE Fighter fan music add-on. Choose it as your soundtrack while keeping your preferred sound effects.</p>
+            <div class="settings-route"><span>Settings</span><span aria-hidden="true">→</span><span>Music</span><span aria-hidden="true">→</span><strong>Star Wars</strong></div>
+          </article></div>
+        </div>
+        <p class="addon-note">Mix and match: both add-ons work with New Mode and Classic Mode. The original sound effects and three original soundtracks are also available.</p>
+      </div>
+    </section>
+
+    <section class="section-pad controls-section" id="controls" aria-labelledby="controls-title">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5"><p class="eyebrow section-index">04 / READY WHEN YOU ARE</p><h2 id="controls-title">Less setup.<br>More swooping.</h2><p class="section-intro">Start with the classic keyboard layout, or remap the four ship actions under <strong>Settings → Controller</strong>.</p><p class="muted-copy">Controller support is built in. Music and graphics settings are available with a keyboard, too.</p></div>
+          <div class="col-lg-7">
+            <div class="controls-list" aria-label="Default keyboard controls">
+              <div class="control-row"><span>Move left / right</span><span class="key-group"><kbd>Z</kbd><kbd>X</kbd></span></div>
+              <div class="control-row"><span>Fire</span><kbd>.</kbd></div>
+              <div class="control-row"><span>Select weapon</span><kbd>/</kbd></div>
+              <div class="control-row"><span>Pause</span><kbd>P</kbd></div>
+              <div class="control-row"><span>New / Classic Mode</span><span class="key-group"><kbd>Ctrl</kbd><span>+</span><kbd>C</kbd></span></div>
+              <div class="control-row"><span>Next music track</span><span class="key-group"><kbd>⌘</kbd><span>+</span><kbd>⇧</kbd><span>+</span><kbd>M</kbd></span></div>
+              <div class="control-row"><span>Mute music</span><span class="key-group"><kbd>⌘</kbd><span>+</span><kbd>⌥</kbd><span>+</span><kbd>M</kbd></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="get-started" aria-labelledby="get-started-title">
+      <div class="container">
+        <div class="launch-panel">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-7"><p class="eyebrow">YOUR NEXT FLIGHT</p><h2 id="get-started-title">Ready for<br>one more wave?</h2><p>Find Swoop releases and follow the project on GitHub. Your next high score is waiting.</p>
+              <div class="d-flex flex-wrap gap-3"><a class="btn btn-accent" href="https://github.com/ProfDrLuigi/SwoopGame/releases">View releases <svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a><a class="btn btn-outline-light" href="https://github.com/ProfDrLuigi/SwoopGame"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> Visit GitHub</a></div>
+              <p class="system-note">For macOS 11 or later.</p>
+            </div>
+            <div class="col-lg-5">
+              <div class="launch-summary">
+                <img src="assets/img/app-icon.webp" width="128" height="128" alt="" loading="lazy">
+                <p class="launch-name">SWOOP<span class="brand-dot">.</span></p>
+                <ul><li>Native macOS app</li><li>New &amp; Classic graphics</li><li>NAMCO &amp; Star Wars fan add-ons</li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad pt-0" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4"><p class="eyebrow section-index">BEFORE TAKEOFF</p><h2 id="faq-title">Good to know.</h2></div>
+          <div class="col-lg-8"><div class="accordion accordion-flush" id="faq">
+            <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-native" aria-expanded="true" aria-controls="faq-native">Does Swoop need an emulator?</button></h3><div id="faq-native" class="accordion-collapse collapse show" data-bs-parent="#faq"><div class="accordion-body">This port runs as a native macOS app built with Swift and SpriteKit. It reconstructs the original gameplay in a modern implementation.</div></div></div>
+            <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-modes" aria-expanded="false" aria-controls="faq-modes">Can I switch graphics while playing?</button></h3><div id="faq-modes" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Yes. Press <kbd>Ctrl</kbd> + <kbd>C</kbd> or change the graphics option in Settings. New Mode uses HD artwork; Classic Mode uses the original pixel graphics. Switching preserves your current game.</div></div></div>
+            <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-addons" aria-expanded="false" aria-controls="faq-addons">Are NAMCO and Star Wars included?</button></h3><div id="faq-addons" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Yes. Both historical fan add-ons are integrated: NAMCO replaces the sound effects, while Star Wars: TIE Fighter adds a music option. Select them independently in Settings. They work with both graphics modes.</div></div></div>
+            <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-language" aria-expanded="false" aria-controls="faq-language">Which languages does the game support?</button></h3><div id="faq-language" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">English and German. Change the language in Settings; the selection is saved for your next session.</div></div></div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-4">
+      <div><a class="brand footer-brand" href="./">SWOOP<span class="brand-dot">.</span></a><p>A classic Mac game. A new chapter.</p></div>
+      <nav class="d-flex flex-wrap gap-4" aria-label="Footer navigation"><a href="https://github.com/ProfDrLuigi/SwoopGame">GitHub</a><a href="https://github.com/ProfDrLuigi/SwoopGame/issues">Feedback &amp; issues</a><a href="https://github.com/ProfDrLuigi/SwoopGame/releases">Releases</a><a href="#main">Back to top ↑</a></nav>
+      <p class="footer-note">An independent port of the 1996 game. Original game and fan add-on names belong to their respective creators.</p>
+    </div>
+  </footer>
+</body>
+</html>
